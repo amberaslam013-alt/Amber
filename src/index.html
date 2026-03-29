@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grand Hotel Bad Pyrmont - Instagram Reel Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&family=Jost:wght@200;300;400&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Grand Hotel Bad Pyrmont</h1>
+      <p>Instagram Reel Generator</p>
+      <p class="subtitle">10-Second · 9:16 Vertical · Premium Wellness Content</p>
+    </header>
+
+    <main>
+      <section class="preview-section">
+        <h2>Preview Canvas</h2>
+        <div class="canvas-wrapper">
+          <canvas id="reel-canvas"></canvas>
+          <div class="canvas-specs">1080 × 1920 px | 24 FPS</div>
+        </div>
+      </section>
+
+      <section class="controls-section">
+        <h2>Controls</h2>
+        <div class="button-group">
+          <button id="preview-btn" class="btn btn-primary">Preview</button>
+          <button id="generate-btn" class="btn btn-success">Generate Video</button>
+          <button id="reset-btn" class="btn btn-secondary">Reset</button>
+        </div>
+        <div class="info">
+          <p><strong>Preview:</strong> Real-time preview of the 10-second reel</p>
+          <p><strong>Generate:</strong> Create and download the final MP4 video file</p>
+          <p><strong>Duration:</strong> Video generation may take 30-60 seconds depending on system performance</p>
+        </div>
+      </section>
+
+      <section class="info-section">
+        <h2>Scene Breakdown</h2>
+        <div class="scenes-info">
+          <div class="scene-card">
+            <div class="scene-number">1</div>
+            <div class="scene-details">
+              <h3>Opening — Forest & Architecture (0-2s)</h3>
+              <p>Slow drone push-in over misty German forest canopy into hotel façade at golden hour.</p>
+              <p class="text">«Where Healing Begins.»</p>
+            </div>
+          </div>
+
+          <div class="scene-card">
+            <div class="scene-number">2</div>
+            <div class="scene-details">
+              <h3>Spa — Pool & Steam Ritual (2-4s)</h3>
+              <p>Silky underwater shot of legs gliding through thermal pool, transitioning to warm sauna steam.</p>
+              <p class="text">«1,500 m² of Pure Stillness.»</p>
+            </div>
+          </div>
+
+          <div class="scene-card">
+            <div class="scene-number">3</div>
+            <div class="scene-details">
+              <h3>Wellness — Ayurvedic Touch (4-6s)</h3>
+              <p>Extreme close-up of therapist hands with botanical oils, followed by guest portrait mid-treatment.</p>
+              <p class="text">«Ancient Wisdom. Modern Healing.»</p>
+            </div>
+          </div>
+
+          <div class="scene-card">
+            <div class="scene-number">4</div>
+            <div class="scene-details">
+              <h3>Fine Dining — Healthy Gourmet (6-8s)</h3>
+              <p>Overhead rotating shot of immaculately plated seasonal dish with micro herbs and edible flowers.</p>
+              <p class="text">«Nourish Every Cell.»</p>
+            </div>
+          </div>
+
+          <div class="scene-card">
+            <div class="scene-number">5</div>
+            <div class="scene-details">
+              <h3>Close — Brand Identity (8-10s)</h3>
+              <p>Pull back from candle flame to reveal logo, fade to suite window, then to gold, then black.</p>
+              <p class="text">«Grand Hotel Bad Pyrmont»</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="notes-section">
+        <h2>Technical Notes</h2>
+        <ul>
+          <li><strong>Resolution:</strong> 1080 × 1920 px (9:16 aspect ratio, Instagram Reel format)</li>
+          <li><strong>Frame Rate:</strong> 24 FPS for cinematic feel</li>
+          <li><strong>Duration:</strong> 10 seconds (240 frames)</li>
+          <li><strong>Video Codec:</strong> H.264 (MP4)</li>
+          <li><strong>Colors:</strong> Warm teal-and-gold cinematic palette with desaturated tones</li>
+          <li><strong>Typography:</strong> Cormorant Garamond (italic, serif) + Cinzel (display caps)</li>
+          <li><strong>Transitions:</strong> Liquid dissolve, match cuts, and fade effects (≤ 0.4s each)</li>
+          <li><strong>Text Animations:</strong> Fade-up entrance (400ms ease-out), fade-out exit (400ms)</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Concept prepared for
+        <strong>Grand Hotel Bad Pyrmont</strong> — Instagram Content Strategy — 2025
+      </p>
+    </footer>
+  </div>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
