@@ -1,0 +1,29 @@
+{
+  "name": "my-video",
+  "version": "1.0.0",
+  "description": "Video generation project using Remotion",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "remotion preview src/index.tsx",
+    "render": "remotion render src/index.tsx MyComposition out/video.mp4",
+    "lambda:deploy": "remotion lambda functions deploy",
+    "lambda:render": "remotion lambda render MyComposition"
+  },
+  "keywords": [
+    "remotion",
+    "video"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "remotion": "^4.0.471"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.41",
+    "@types/react": "^19.2.16",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
+  }
+}
